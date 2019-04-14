@@ -1,4 +1,5 @@
 # Write your code here.
+require "pry"
 def line(line)
   if line.length == 0
     puts "The line is currently empty."
@@ -10,7 +11,8 @@ def line(line)
       end
     end
   end
-    line_list = "The line is currently: #{line_list}."
+  binding.pry
+  line_list = "The line is currently: #{line_list}."
 end
 
 def take_a_number(line, name)
