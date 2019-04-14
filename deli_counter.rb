@@ -13,6 +13,10 @@ def line(line)
     line_list = "The line is currently: #{line_list}."
 end
 
+def take_a_number(line, name)
+  "Welcome, #{line.push(name)}. You are number #{line.length} in line."
+end
+
 def now_serving(line)
   if line.length == 0
     puts "There is nobody waiting to be served!"
