@@ -13,8 +13,9 @@ def line(line)
     line_list = "The line is currently: #{line_list}."
 end
 
-def take_a_number(line, name)
-  puts "Welcome, #{line.push(name)}. You are number #{line.length} in line."
+def take_a_number(line, name
+  line.push(name)
+  puts "Welcome, #{name}. You are number #{line.length} in line."
 end
 
 def now_serving(line)
