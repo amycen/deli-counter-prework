@@ -14,7 +14,7 @@ def line(line)
 end
 
 def take_a_number(line, name)
-  "Welcome, #{line.push(name)}. You are number #{line.length} in line."
+  puts "Welcome, #{line.push(name)}. You are number #{line.length} in line."
 end
 
 def now_serving(line)
