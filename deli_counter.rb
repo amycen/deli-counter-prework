@@ -13,7 +13,7 @@ def line(line)
     line_list = "The line is currently: #{line_list}."
 end
 
-def take_a_number(line, name
+def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end
