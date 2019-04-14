@@ -6,5 +6,7 @@ def line(line)
 
     line.each_with_index do |name, index|
       line_list += "#{index}. #{name}"
+      if index < line.length - 1
+        line_list += ","
     line_list = "The line is currently: #{line_list}."
 end
