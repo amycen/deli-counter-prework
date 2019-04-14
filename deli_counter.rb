@@ -6,6 +6,8 @@ def line(line)
   else
     for i = 0 in line
       line_list += "#{i + 1}. line[i]"
+      i += 1
+    end
   binding.pry
   line_list = "The line is currently: #{line_list}."
 end
