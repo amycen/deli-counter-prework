@@ -10,3 +10,7 @@ def line(line)
         line_list += ","
     line_list = "The line is currently: #{line_list}."
 end
+
+def now_serving(line)
+  puts "Currently serving #{line.shift}."
+end
