@@ -8,6 +8,8 @@ def line(line)
       line_list += "#{index + 1}. #{name}"
       if index < line.length - 1
         line_list += ","
+      end
+    end
     line_list = "The line is currently: #{line_list}."
 end
 
